@@ -20,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/kooma93/TS-Chat/issues"
   },
-  "homepage": "https://github.com/kooma93/TS-Chat#readme"
+  "homepage": "https://github.com/kooma93/TS-Chat#readme",
+  "devDependencies": {
+    "husky": "^4.2.3"
+  }
 }
