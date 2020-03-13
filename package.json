@@ -1,0 +1,24 @@
+{
+  "name": "ts-chat",
+  "version": "1.0.0",
+  "description": "Build a chat app using TypeScript, React, and Socket.io",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test ./src/server/index.spec.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kooma93/TS-Chat.git"
+  },
+  "keywords": [
+    "TypeScript",
+    "React",
+    "Socket.io"
+  ],
+  "author": "Michael Koo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kooma93/TS-Chat/issues"
+  },
+  "homepage": "https://github.com/kooma93/TS-Chat#readme"
+}
