@@ -4,7 +4,8 @@
   "description": "Build a chat app using TypeScript, React, and Socket.io",
   "main": "index.js",
   "scripts": {
-    "test": "npm test ./src/server/index.spec.js"
+    "test": "node ./src/server/index.spec.js",
+    "lint": "eslint . --ext .js, .jsx, .ts, .tsx"
   },
   "repository": {
     "type": "git",
@@ -22,11 +23,14 @@
   },
   "homepage": "https://github.com/kooma93/TS-Chat#readme",
   "devDependencies": {
+    "@types/express": "^4.17.3",
+    "@types/react": "^16.9.23",
     "@typescript-eslint/eslint-plugin": "^2.23.0",
     "@typescript-eslint/parser": "^2.23.0",
     "eslint": "^6.8.0",
     "eslint-config-airbnb": "^18.1.0",
     "eslint-config-prettier": "^6.10.0",
+    "eslint-config-react": "^1.1.7",
     "eslint-import-resolver-typescript": "^2.0.0",
     "eslint-plugin-import": "^2.20.1",
     "eslint-plugin-json": "^2.1.0",
@@ -36,5 +40,8 @@
     "husky": "^4.2.3",
     "prettier": "^1.19.1",
     "typescript": "^3.8.3"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
   }
 }
